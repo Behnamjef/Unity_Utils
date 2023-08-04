@@ -38,7 +38,8 @@ namespace MagicOwl
 
             if (count > collection.Count)
                 count = collection.Count;
-
+            
+            for (int i = 0; i < count; i++)
             {
                 var index = rng.Next(collection.Count);
                 var item = collection[index];
