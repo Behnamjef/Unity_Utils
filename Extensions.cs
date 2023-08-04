@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 namespace MagicOwl
 {
     public static class Extensions
     {
-        private static System.Random random = new();
-
         public static bool IsNullOrEmpty<T>(this IEnumerable<T> enumerable)
         {
             return enumerable == null || !enumerable.Any();
@@ -23,12 +20,31 @@ namespace MagicOwl
 
         public static T GetRandomItem<T>(this IEnumerable<T> enumerable)
         {
-            return enumerable.ToList()[Random.Range(0, enumerable.Count())];
+            return enumerable.ToList()[UnityEngine.Random.Range(0, enumerable.Count())];
         }
 
         public static IEnumerable<T> GetRandomItems<T>(this IEnumerable<T> enumerable, int count)
         {
             return enumerable.OrderBy(x => Guid.NewGuid()).Take(count);
+        }
+
+        public static IEnumerable<T> GetUniqueRandomItems<T>(this IEnumerable<T> enumerable, int count)
+        {
+            if (count <= 0)
+                throw new ArgumentException("Count must be greater than 0");
+
+            var collection = enumerable.ToList();
+            var rng = new System.Random(DateTime.Now.Millisecond);
+
+            if (count > collection.Count)
+                count = collection.Count;
+
+            {
+                var index = rng.Next(collection.Count);
+                var item = collection[index];
+                yield return item;
+                collection.RemoveAt(index);
+            }
         }
 
         public static void SetGlobalScale(this Transform transform, Vector3 globalScale)
@@ -50,12 +66,6 @@ namespace MagicOwl
             if (obj == null)
                 obj = source.AddComponent<T>();
             return obj;
-        }
-
-        public static T GetUniqueRandomItem<T>(this IEnumerable<T> enumerable)
-        {
-            int index = random.Next(enumerable.Count());
-            return enumerable.ToList()[index];
         }
     }
 }
