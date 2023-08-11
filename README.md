@@ -6,6 +6,15 @@ Download this [unitypackage](https://github.com/Behnamjef/Unity_Utils/blob/main/
 
 https://github.com/Behnamjef/Unity_Utils/assets/14978260/9f56fbf8-d859-4367-8883-c0051f521664
 
+
+## Ragdoll
+Download this [unitypackage](https://github.com/Behnamjef/Unity_Utils/blob/main/Ragdoll/Ragdoll.unitypackage) or go to [this folder](https://github.com/Behnamjef/Unity_Utils/blob/main/Ragdoll/).
+- Attach RagdollComponent to your character in Unity.
+- Populate Ragdoll Rigidbodies and Ragdoll Colliders lists in the Inspector.
+- During gameplay, call SetRagdollActive(bool active) to enable or disable ragdoll physics.
+
+https://github.com/Behnamjef/Unity_Utils/assets/14978260/ac3732c2-d9e1-45c5-a968-e3686a920780
+
 ## Utils
 ### Extension
 [Extentions](https://github.com/Behnamjef/Unity_Utils/blob/main/Utils/Extensions.cs) contains extensions to make development easier.
@@ -18,4 +27,5 @@ How it Works:
 3. Watch the magic happen! When another collider enters the trigger zone, the object shakes vibrantly, adding a touch of dynamism to your scene.
 
 https://github.com/Behnamjef/Unity_Utils/assets/14978260/2634a44f-83bc-4a83-899d-251639fbe7cf
+
 
