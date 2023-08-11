@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 namespace MagicOwl.Pool
@@ -24,8 +23,9 @@ namespace MagicOwl.Pool
 
         public virtual T GetObject()
         {
-            foreach (var obj in Pool.Where(obj => !obj.gameObject.activeInHierarchy))
+            foreach (var obj in Pool)
             {
+                if(obj.gameObject.activeInHierarchy) continue;
                 obj.gameObject.SetActive(true);
                 return obj;
             }
