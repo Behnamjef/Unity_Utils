@@ -4,7 +4,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using UnityEngine;
 
-namespace MagicOwl
+namespace MagicOwl.Utils
 {
     public static class Extensions
     {
