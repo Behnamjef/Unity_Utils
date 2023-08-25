@@ -15,6 +15,11 @@ Download this [unitypackage](https://github.com/Behnamjef/Unity_Utils/blob/main/
 
 https://github.com/Behnamjef/Unity_Utils/assets/14978260/ac3732c2-d9e1-45c5-a968-e3686a920780
 
+## Inverted Mask
+This class can be used to invert a mask in Unity. To use it, simply add [this component](https://github.com/Behnamjef/Unity_Utils/blob/main/InverseMask/InverseMask.cs) to your masked object instead of the unity Image component.
+[Here is a package](https://github.com/Behnamjef/Unity_Utils/blob/main/InverseMask/InverseMask.unitypackage) with a sample scene.
+![InverseMask1](https://github.com/Behnamjef/Unity_Utils/assets/14978260/f602c792-1394-427f-9e3c-3e3f2cf6dc37)
+
 ## Utils
 ### Extension
 [Extentions](https://github.com/Behnamjef/Unity_Utils/blob/main/Utils/Extensions.cs) contains extensions to make development easier.
@@ -27,5 +32,6 @@ How it Works:
 3. Watch the magic happen! When another collider enters the trigger zone, the object shakes vibrantly, adding a touch of dynamism to your scene.
 
 https://github.com/Behnamjef/Unity_Utils/assets/14978260/2634a44f-83bc-4a83-899d-251639fbe7cf
+
 
 
