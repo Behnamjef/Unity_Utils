@@ -25,6 +25,10 @@ This class can be used to invert a mask in Unity. To use it, simply add [this co
 This repository contains a Unity utility script for adding captivating flying coin animations to your user interface elements. The script utilizes the powerful [DoTween](https://dotween.demigiant.com/) library to create smooth and engaging animations that can enhance the visual appeal of your UI.
 
 
+https://github.com/Behnamjef/Unity_Utils/assets/14978260/bef17588-328d-49f0-99d4-cc3341963d3d
+
+
+
 ## Utils
 ### Extension
 [Extentions](https://github.com/Behnamjef/Unity_Utils/blob/main/Utils/Extensions.cs) contains extensions to make development easier.
