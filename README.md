@@ -1,6 +1,6 @@
 # Unity's most useful tools
 # Installation
-Download and import [this unity](https://github.com/Behnamjef/Unity_Utils) package into your project.
+Download and import [this unity package](https://github.com/Behnamjef/Unity_Utils/blob/main/Utils_UnityPackage.unitypackage) into your project.
 
 # Package Content
 ## Object pool
