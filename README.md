@@ -1,14 +1,16 @@
 # Unity's most useful tools
-## Object pool
+# Installation
+Download and import [this unity](https://github.com/Behnamjef/Unity_Utils) package into your project.
 
+# Package Content
+## Object pool
 Object Pooling optimizes projects by reusing pre-instantiated GameObjects, reducing CPU burden from repetitive creation and destruction. This design pattern is crucial for top-down shooter games, like Space Shooter, with frequent bullet operations, ensuring smoother gameplay and improved performance. Efficient resource utilization and recycling mechanisms make Object Pooling an essential practice for game developers.
-Download this [unitypackage](https://github.com/Behnamjef/Unity_Utils/blob/main/Object%20Pool/Object%20Pool.unitypackage) or go to [this folder](https://github.com/Behnamjef/Unity_Utils/tree/main/Object%20Pool).
 
 https://github.com/Behnamjef/Unity_Utils/assets/14978260/9f56fbf8-d859-4367-8883-c0051f521664
 
 
 ## Ragdoll
-Download this [unitypackage](https://github.com/Behnamjef/Unity_Utils/blob/main/Ragdoll/Ragdoll.unitypackage) or go to [this folder](https://github.com/Behnamjef/Unity_Utils/blob/main/Ragdoll/).
+Download and import [this unity](https://github.com/Behnamjef/Unity_Utils) package into your project.
 - Attach RagdollComponent to your character in Unity.
 - Populate Ragdoll Rigidbodies and Ragdoll Colliders lists in the Inspector.
 - During gameplay, call SetRagdollActive(bool active) to enable or disable ragdoll physics.
@@ -17,8 +19,11 @@ https://github.com/Behnamjef/Unity_Utils/assets/14978260/ac3732c2-d9e1-45c5-a968
 
 ## Inverted Mask
 This class can be used to invert a mask in Unity. To use it, simply add [this component](https://github.com/Behnamjef/Unity_Utils/blob/main/InverseMask/InverseMask.cs) to your masked object instead of the unity Image component.
-[Here is a package](https://github.com/Behnamjef/Unity_Utils/blob/main/InverseMask/InverseMask.unitypackage) with a sample scene.
 ![InverseMask1](https://github.com/Behnamjef/Unity_Utils/assets/14978260/f602c792-1394-427f-9e3c-3e3f2cf6dc37)
+
+## Flying Objects in UI
+This repository contains a Unity utility script for adding captivating flying coin animations to your user interface elements. The script utilizes the powerful [DoTween](https://dotween.demigiant.com/) library to create smooth and engaging animations that can enhance the visual appeal of your UI.
+
 
 ## Utils
 ### Extension
