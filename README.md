@@ -27,7 +27,9 @@ This repository contains a Unity utility script for adding captivating flying co
 
 https://github.com/Behnamjef/Unity_Utils/assets/14978260/bef17588-328d-49f0-99d4-cc3341963d3d
 
-
+## Safe area
+[This Unity Safe Area script](https://github.com/Behnamjef/Unity_Utils/blob/main/SafeArea/SafeArea.cs) streamlines mobile UI development by automatically adjusting elements for notches, rounded corners, and diverse screen sizes, eliminating manual tweaks. Easily integrated, the script ensures a polished UI across devices. Elevate your Unity game development with this efficient solution.
+![1](https://github.com/Behnamjef/Unity_Utils/assets/14978260/7aa2b863-db35-429d-b068-fb7294cc2dcb)
 
 ## Utils
 ### Extension
